@@ -1,0 +1,35 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "jest/globals": true
+  },
+  "extends": ["@react-native", "prettier", "standard-with-typescript", "plugin:react/recommended"],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "plugins": ["react", "jest"],
+  "overrides": [
+    {
+      "files": ["*.js", "*.ts", "*.jsx", "*.tsx"],
+      "extends": "standard-with-typescript",
+      "rules": {
+        "semi": "off",
+        "no-tabs": "off",
+        "@typescript-eslint/semi": "off",
+        "react/react-in-jsx-scope": "off",
+        "@typescript-eslint/indent": "off",
+        "@typescript-eslint/comma-dangle": "off",
+        "@typescript-eslint/member-delimiter-style": "off"
+      }
+    }
+  ]
+}
