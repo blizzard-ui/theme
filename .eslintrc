@@ -27,6 +27,7 @@
         "@typescript-eslint/semi": "off",
         "react/react-in-jsx-scope": "off",
         "@typescript-eslint/indent": "off",
+        "react-native/no-inline-styles": "off",
         "@typescript-eslint/comma-dangle": "off",
         "@typescript-eslint/member-delimiter-style": "off"
       }

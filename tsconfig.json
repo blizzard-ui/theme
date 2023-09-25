@@ -2,11 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "@blizzard-ui/theme": ["./src/index"],
-      "@contexts/*": ["./src/contexts/*"],
-      "@helpers/*": ["./src/helpers/*"],
-      "@styles/*": ["./src/styles/*"],
-      "@types/*": ["./src/types/*"]
+      "@blizzard-ui/theme": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
