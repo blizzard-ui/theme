@@ -40,13 +40,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/krishna-gujjjar/blizzard-ui-theme",
+  "repository": "https://github.com/blizzard-ui/theme",
   "author": "Krishna Gujjjar <krishnagujjjar@gmail.com> (https://github.com/krishna-gujjjar)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/krishna-gujjjar/blizzard-ui-theme/issues"
+    "url": "https://github.com/blizzard-ui/theme/issues"
   },
-  "homepage": "https://github.com/krishna-gujjjar/blizzard-ui-theme#readme",
+  "homepage": "https://github.com/blizzard-ui/theme#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
