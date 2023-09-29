@@ -1,6 +1,10 @@
 {
-  "extends": "../tsconfig",
+  "extend": "../tsconfig",
   "compilerOptions": {
-    // Avoid expo-cli auto-generating a tsconfig
+    "rootDir": "../",
+    "paths": {
+      "@blizzard-ui/theme": ["../src/index"]
+    },
+    "jsx": "react-native"
   }
 }

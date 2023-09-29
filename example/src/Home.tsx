@@ -7,8 +7,12 @@ export const Home = (): JSX.Element => {
 	const { theme } = useTheme();
 
 	return (
-		<ScrollView contentContainerStyle={{ paddingVertical: '5%' }}>
-			<Header title="Default Color Palette" color={theme.colors.dark} />
+		<ScrollView contentContainerStyle={{ backgroundColor: theme.colors.white }}>
+			<Header
+				bg={theme.colors.white}
+				color={theme.colors.dark}
+				title="Default Color Palette"
+			/>
 			<Container bg={theme.colors.white}>
 				<Tile bg="primary" color={theme.colors.white} />
 				<Tile bg="primarySubtle" color={theme.colors.dark} />

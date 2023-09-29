@@ -1,0 +1,10 @@
+.bablerc
+babel.config.js
+react-native.config.js
+metro.config.js
+webpack.config.js
+jest.config.js
+commitlint.config.js
+example/*
+node_modules/*
+lib/*
